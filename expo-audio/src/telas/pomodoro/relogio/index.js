@@ -6,6 +6,7 @@ export default function countdownClock() {
     const [hours, setHours] = useState("00");
     const [minutes, setMinutes] = useState("30");
     const [seconds, setSeconds] = useState("00");
+    
     return (
         <>
             <Text style={styles.relogio}>{`${hours}:${minutes}:${seconds}`}</Text>

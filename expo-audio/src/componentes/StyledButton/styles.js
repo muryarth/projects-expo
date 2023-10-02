@@ -7,7 +7,8 @@ const styles = StyleSheet.create({
         paddingHorizontal: 36,
         borderRadius: 14,
         borderColor: "#033e8a",
-        borderWidth: 2
+        borderWidth: 2,
+        marginHorizontal: 4,
     },
 
     secondaryButton: {
@@ -16,7 +17,8 @@ const styles = StyleSheet.create({
         paddingHorizontal: 36,
         borderRadius: 14,
         borderColor: "#000000",
-        borderWidth: 3
+        borderWidth: 3,
+        marginHorizontal: 4,
     }
 });
 

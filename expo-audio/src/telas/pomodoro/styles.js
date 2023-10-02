@@ -7,6 +7,10 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
+
+    buttonGroup: {
+        flexDirection: "row",
+    }
 });
 
 export default styles;
