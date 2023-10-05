@@ -2,15 +2,11 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+        flex: 2,
         backgroundColor: 'fff',
         alignItems: 'center',
         justifyContent: 'center',
     },
-
-    buttonGroup: {
-        flexDirection: "row",
-    }
 });
 
 export default styles;

@@ -9,6 +9,7 @@ const styles = StyleSheet.create({
         borderColor: "#033e8a",
         borderWidth: 2,
         marginHorizontal: 4,
+        marginVertical: 16,
     },
 
     secondaryButton: {
@@ -19,6 +20,7 @@ const styles = StyleSheet.create({
         borderColor: "#000000",
         borderWidth: 3,
         marginHorizontal: 4,
+        marginVertical: 16,
     }
 });
 

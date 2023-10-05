@@ -1,24 +1,19 @@
-import React from 'react';
-import { SafeAreaView, StatusBar, StyleSheet } from 'react-native';
-import Pomodoro from "./src/telas/pomodoro";
+import React from "react";
+import { SafeAreaView, StatusBar, StyleSheet } from "react-native";
+import TocaSom from "./src/telas/TocaSom";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.content}>
       <StatusBar />
-      <Pomodoro />
+      <TocaSom />
     </SafeAreaView>
-  )
+  );
 }
 
 const styles = StyleSheet.create({
-  // content: {
-  //   backgroundColor: "#caf1f8",
-  //   flex: 1,
-  // },
-
   content: {
     backgroundColor: "#ffffff",
     flex: 1,
   },
-})
+});

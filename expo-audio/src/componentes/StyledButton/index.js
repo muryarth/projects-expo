@@ -5,7 +5,7 @@ import styles from "./styles";
 export default StyledButton = ({ title, action, style }) => {
 
     const defineButtonStyle = (buttonStyle) => {
-        if (buttonStyle == "secondaryButton") {
+        if (buttonStyle == "primaryButton") {
             return styles.secondaryButton;
         }
         return styles.primaryButton;
